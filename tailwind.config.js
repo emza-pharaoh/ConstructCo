@@ -26,6 +26,7 @@ export default {
 
       backgroundImage: {
         'hero-pattern': "url('./assets/img/Hero-bg.jpg')",
+        'contact-bg': "url('./assets/img/contact-bg.jpg')",
         
       },
 

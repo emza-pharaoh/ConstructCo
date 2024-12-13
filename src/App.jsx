@@ -3,6 +3,7 @@ import Navbar from './Components/navbar/Navbar';
 import Hero from './Components/Hero';
 import Mission from './Components/Mission';
 import Services from './Components/Services';
+import ContactUs from './Components/ContactUs';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -28,6 +29,7 @@ const App = () => {
       <Hero />
       <Mission />
       <Services />
+      <ContactUs />
     </div> 
   )
 }

@@ -93,4 +93,9 @@ const Services = () => {
             
            
         </div>
-  
+      </div>
+        </>
+        );
+      }
+
+export default Services;
