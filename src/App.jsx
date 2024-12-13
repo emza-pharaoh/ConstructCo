@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import Mission from './Components/Mission';
 import Services from './Components/Services';
 import ContactUs from './Components/ContactUs';
+import Footer from './Components/Footer';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -30,6 +31,7 @@ const App = () => {
       <Mission />
       <Services />
       <ContactUs />
+      <Footer />
     </div> 
   )
 }
