@@ -117,7 +117,7 @@ const Projects = () => {
         <div className='relative w-full'>
 
            {/* Left Blur */}
-  <div className="absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-gray-500 to-transparent pointer-events-none z-10"></div>
+  <div className="absolute inset-y-0 left-0 w-3 sm:w-6 bg-gradient-to-r from-gray-500 to-transparent pointer-events-none z-10"></div>
 
 
         <div className='flex flex-row justify-center items-center p-20 pl-96 overflow-x-auto scrollbar scrollbar-thumb-primary scrollbar-track-gray-700 scrollbar-thin scroll-smooth'>
@@ -140,7 +140,7 @@ const Projects = () => {
         </div>
 
         {/* Right Blur */}
-  <div className="absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-gray-500 to-transparent pointer-events-none z-10"></div>
+  <div className="absolute inset-y-0 right-0 w-3 sm:w-6 bg-gradient-to-l from-gray-500 to-transparent pointer-events-none z-10"></div>
 
         </div>
 
