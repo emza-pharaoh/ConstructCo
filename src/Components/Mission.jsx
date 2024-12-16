@@ -21,7 +21,7 @@ const MissionInfo = [
     <div className=' bg-primary dark:bg-gray-900'>
         
     <div className="container h-screen justify-center dark:text-white flex items-center gap-3 flex-col">
-        <div className='relative w-full max-w-lg xl:-left-96'>
+        <div className='relative w-full max-w-lg -left-60 md:-left-0 xl:-left-96'>
     
             <div className='animate-blob animation-delay-2000 absolute top-0 -left-4 dark:-left-48 w-96 h-96 xl:w-[500px] xl:h-[500px]
                  bg-pink-700 rounded-full mix-blend-multiply filter blur-xl opacity-70'></div>

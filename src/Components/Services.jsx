@@ -53,7 +53,7 @@ const Services = () => {
   return (
     <>
     
-    <div className="bg-gray-500 dark:bg-gray-900 dark:text-white py-12 sm:grid sm:place-items-center">
+    <div className="bg-gray-500 dark:bg-gray-900 dark:text-white py-12 sm:grid sm:place-items-center max-sm:overflow-hidden">
 
     <div className='relative w-full max-w-lg sm:-bottom-40'>
     
