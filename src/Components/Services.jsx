@@ -55,11 +55,11 @@ const Services = () => {
     
     <div className="bg-gray-500 dark:bg-gray-900 dark:text-white py-12 sm:grid sm:place-items-center">
 
-    <div className='relative w-full max-w-lg -bottom-40'>
+    <div className='relative w-full max-w-lg sm:-bottom-40'>
     
             <div className='animate-blob animation-delay-2000 absolute top-0 -left-48 w-96 h-96
                  bg-gray-700 rounded-sm mix-blend-multiply filter blur-xl opacity-70'></div>
-            <div className='animate-blob animation-delay-4000 absolute top-0 -right-48 w-96 h-96
+            <div className='animate-blob animation-delay-4000 absolute top-0 -right-24 md:-right-48 w-96 h-96
                  bg-black rounded-sm mix-blend-multiply filter blur-xl opacity-70'></div>
             <div className='animate-blob absolute  items-center left-20 -bottom-80 w-96 h-96
                  bg-red-600 rounded-sm mix-blend-multiply filter blur-xl opacity-70'></div>

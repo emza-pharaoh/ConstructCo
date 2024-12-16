@@ -123,7 +123,7 @@ const Projects = () => {
         <div className='flex flex-row justify-center items-center p-20 pl-96 overflow-x-auto scrollbar scrollbar-thumb-primary scrollbar-track-gray-700 scrollbar-thin scroll-smooth'>
             {ProjectsData.map((Data) => {
                 return(
-                    <div className="container ">
+                    <div className="flex flex-row gap-2 px-7 ">
                 <div className="card flex flex-col  bg-gray-600 rounded-xl items-center justify-center bg-opacity-70 min-h-full w-[350px] 2xl:w-[450px]" key={Data.id} >
                     <img src={Data.image} alt="image" className='h-[300px] w-full rounded-md'/>
                     <h1 className="text-3xl text-shadow-lg text-primary font-semibold z-10 self-start p-2">{Data.name}</h1>
