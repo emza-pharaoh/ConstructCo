@@ -35,9 +35,9 @@ const MissionInfo = [
         <div className="flex flex-row">
           {/* Text and Button Part */}
           <div className='flex flex-col gap-4'>
-                <h1 className="text-3xl text-center font-bold text-shadow-lg">Our Mission</h1>
-                <h1 className="text-2xl font-semibold">Building a Better Tommorow</h1>
-                <p className="text-2xl text-base">
+                <h1 className="text-5xl text-center font-bold text-shadow-lg animate-pulse">Our Mission</h1>
+                <h1 className="text-4xl font-semibold text-secondary text-shadow-xl">Building a Better Tommorow</h1>
+                <p className="text-4xl font-thin text-shadow-lg">
                     At ConstructCo, our mission is to create sustainable, innovative, and impactful structures that improve the quality of life for individuals and communities. 
                    We are committed to delivering excellence in every project, fostering trust with our clients, and leading the industry in environmentally conscious construction.
                 </p>

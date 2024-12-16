@@ -5,6 +5,7 @@ import Mission from './Components/Mission';
 import Services from './Components/Services';
 import ContactUs from './Components/ContactUs';
 import Footer from './Components/Footer';
+import Projects from './Components/Projects';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -29,6 +30,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Mission />
+      <Projects />
       <Services />
       <ContactUs />
       <Footer />

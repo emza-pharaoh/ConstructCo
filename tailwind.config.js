@@ -27,6 +27,7 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('./assets/img/Hero-bg.jpg')",
         'contact-bg': "url('./assets/img/contact-bg.jpg')",
+        'projects': "url('./assets/img/projects.jpg')",
         
       },
 
@@ -54,6 +55,7 @@ export default {
   },
   plugins: [
     require('tailwindcss-textshadow'),
+    require('tailwind-scrollbar')
   ],
 }
 

@@ -1,73 +1,77 @@
 import React from 'react'
 import { FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa';
 import HWLogo from '../assets/img/HWLogo.png';
+import Logo from "../assets/icon/LogoNoText.png";
 
 const helpLinks = [
-    {
-      id: 1,
-      name: "FAQs",
-      link: "/faqs",
-    },
-    {
-      id: 2,
-      name: "Contact Support",
-      link: "/contact-support",
-    },
-    {
-      id: 3,
-      name: "Insurance Information",
-      link: "/insurance-info",
-    },
-    {
-      id: 4,
-      name: "Book an Appointment",
-      link: "/book-appointment",
-    },
-  ];
+  {
+    id: 1,
+    name: "FAQs",
+    link: "/faqs",
+  },
+  {
+    id: 2,
+    name: "Contact Us",
+    link: "/contact",
+  },
+  {
+    id: 3,
+    name: "Project Consultations",
+    link: "/consultations",
+  },
+  {
+    id: 4,
+    name: "Request a Quote",
+    link: "/request-quote",
+  },
+];
+
+
 const resourceLinks = [
-    {
-      id: 1,
-      name: "Dental Care Tips",
-      link: "/dental-care-tips",
-    },
-    {
-      id: 2,
-      name: "Our Blog",
-      link: "/blog",
-    },
-    {
-      id: 3,
-      name: "Patient Forms",
-      link: "/patient-forms",
-    },
-    {
-      id: 4,
-      name: "Treatment Guides",
-      link: "/treatment-guides",
-    },
-  ];
+  {
+    id: 1,
+    name: "Construction Tips",
+    link: "/construction-tips",
+  },
+  {
+    id: 2,
+    name: "Our Portfolio",
+    link: "/portfolio",
+  },
+  {
+    id: 3,
+    name: "Building Regulations",
+    link: "/building-regulations",
+  },
+  {
+    id: 4,
+    name: "Sustainability Practices",
+    link: "/sustainability",
+  },
+];
+
 const footerLinks = [
-    {
-      id: 1,
-      name: "Privacy Policy",
-      link: "/privacy-policy",
-    },
-    {
-      id: 2,
-      name: "Terms of Service",
-      link: "/terms-of-service",
-    },
-    {
-      id: 3,
-      name: "Careers",
-      link: "/careers",
-    },
-    {
-      id: 4,
-      name: "About Us",
-      link: "/about-us",
-    },
-  ];
+  {
+    id: 1,
+    name: "Privacy Policy",
+    link: "/privacy-policy",
+  },
+  {
+    id: 2,
+    name: "Terms of Service",
+    link: "/terms-of-service",
+  },
+  {
+    id: 3,
+    name: "Careers",
+    link: "/careers",
+  },
+  {
+    id: 4,
+    name: "About ConstructCo",
+    link: "/about",
+  },
+];
 
 
 const Footer = () => {
@@ -76,11 +80,11 @@ const Footer = () => {
     <div className=" bg-black text-white">
         <div className="grid md:grid-cols-4">
             <div data-aos="fade-in" data-aos-delay="300"  className='p-10'>
-                <h1 className='sm:text-3xl text-xl sm:text-left text-justify mb-3 gap-3 items-center font-poppins'>DentistCo</h1>
+                <a href="#" className='flex flex-row items-center'><img src={Logo} alt="Logo" className='w-12 h-12' /> <span className='text-2xl font-poppins'>ConstructCo</span> </a>
                 <p className="text-sm">
-                At DentistCo, we are dedicated to delivering exceptional dental care with a personalized touch.
-                Our mission is to create healthy, confident smiles through state-of-the-art treatments and a compassionate approach.
-                Your smile is our passion, and we are here to make every visit a comfortable and rewarding experience
+                At ConstructCo, we are dedicated to transforming visions into reality through exceptional craftsmanship and innovative design. 
+                With a commitment to quality, sustainability, and client satisfaction, we bring expertise to every project, from concept to completion. 
+                Our goal is to build not just structures but lasting partnerships and vibrant communities. Let's construct the future together.
                 </p>
                 <br />
                 {/* Social Media Links */}

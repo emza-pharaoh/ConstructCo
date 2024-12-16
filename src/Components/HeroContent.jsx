@@ -61,8 +61,7 @@ const DrInfo = () => {
                         return(
             <div key={Info.id} className="w-full h-full shadow-md rounded-2xl ">
                             
-                            
-
+  
                 <main className=' dark:text-white duration-300'>
                       <div className="container">
                     <div className='grid grid-cols-1  md:grid-cols-2 gap-5 items-center w-full h-full'>
